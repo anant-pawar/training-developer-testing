@@ -11,7 +11,7 @@ public class NumberService {
     }
 
     public NumberCharacteristics getCharacteristics(Integer number) throws NumberException {
-        if(numberValidationService.isValid(number))
+        if(!numberValidationService.isValid(number))
             throw new NumberException();
 
         return NumberCharacteristics

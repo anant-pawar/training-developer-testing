@@ -6,6 +6,6 @@ import lombok.Data;
 @Builder
 @Data
 public class NumberCharacteristics {
-    private boolean isPrime;
-    private boolean isPerfectSquare;
+    private Boolean isPrime;
+    private Boolean isPerfectSquare;
 }
