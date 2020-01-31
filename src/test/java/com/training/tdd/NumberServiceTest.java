@@ -1,5 +1,4 @@
-package com.training.unit;
-
+package com.training.tdd;
 
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.BeforeEach;
